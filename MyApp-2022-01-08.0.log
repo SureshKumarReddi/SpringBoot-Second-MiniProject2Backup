@@ -1,0 +1,102 @@
+2022-01-08 09:50:43,370 [restartedMain] WARN  o.springframework.boot.StartupInfoLogger           - InetAddress.getLocalHost().getHostName() took 5007 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2022-01-08 09:50:48,384 [restartedMain] INFO  c.s.SpringBootSecondMiniProjectApplication         - Starting SpringBootSecondMiniProjectApplication using Java 1.8.0_271 on Sreshs-MacBook-Air.local with PID 80870 (/Users/sresh/eclipse-workspace/SpringBoot-Second-MiniProject/target/classes started by sresh in /Users/sresh/eclipse-workspace/SpringBoot-Second-MiniProject)
+2022-01-08 09:50:48,386 [restartedMain] INFO  c.s.SpringBootSecondMiniProjectApplication         - No active profile set, falling back to default profiles: default
+2022-01-08 09:50:48,480 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-08 09:50:48,480 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-08 09:50:49,524 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-08 09:50:49,640 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 102 ms. Found 4 JPA repository interfaces.
+2022-01-08 09:50:50,497 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2022-01-08 09:50:50,507 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2022-01-08 09:50:50,508 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-01-08 09:50:50,508 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-01-08 09:50:50,579 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-01-08 09:50:50,579 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2098 ms
+2022-01-08 09:50:50,882 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-08 09:50:50,929 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-08 09:50:51,089 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-08 09:50:51,213 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-01-08 09:50:51,721 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-01-08 09:50:51,753 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-08 09:50:52,510 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-08 09:50:52,521 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-08 09:50:53,379 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-08 09:50:53,554 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-08 09:50:53,701 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-01-08 09:50:53,892 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2022-01-08 09:50:53,912 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2022-01-08 09:50:53,913 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2022-01-08 09:50:53,936 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2022-01-08 09:50:53,965 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2022-01-08 09:50:54,130 [restartedMain] INFO  c.s.SpringBootSecondMiniProjectApplication         - Started SpringBootSecondMiniProjectApplication in 26.22 seconds (JVM running for 32.076)
+2022-01-08 09:51:11,540 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-01-08 09:51:11,574 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-08 09:51:11,578 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-01-08 09:51:11,591 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2022-01-08 09:51:41,051 [restartedMain] WARN  o.springframework.boot.StartupInfoLogger           - InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2022-01-08 09:51:46,062 [restartedMain] INFO  c.s.SpringBootSecondMiniProjectApplication         - Starting SpringBootSecondMiniProjectApplication using Java 1.8.0_271 on Sreshs-MacBook-Air.local with PID 81381 (/Users/sresh/eclipse-workspace/SpringBoot-Second-MiniProject/target/classes started by sresh in /Users/sresh/eclipse-workspace/SpringBoot-Second-MiniProject)
+2022-01-08 09:51:46,064 [restartedMain] INFO  c.s.SpringBootSecondMiniProjectApplication         - No active profile set, falling back to default profiles: default
+2022-01-08 09:51:46,159 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-08 09:51:46,159 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-08 09:51:46,984 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-08 09:51:47,058 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+2022-01-08 09:51:47,697 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2022-01-08 09:51:47,708 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2022-01-08 09:51:47,709 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-01-08 09:51:47,709 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-01-08 09:51:47,783 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-01-08 09:51:47,784 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1624 ms
+2022-01-08 09:51:48,057 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-08 09:51:48,104 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-08 09:51:48,239 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-08 09:51:48,341 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-01-08 09:51:48,828 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-01-08 09:51:48,860 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-08 09:51:49,601 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-08 09:51:49,612 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-08 09:51:50,528 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-08 09:51:50,733 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-08 09:51:50,891 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-01-08 09:51:51,090 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2022-01-08 09:51:51,116 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2022-01-08 09:51:51,117 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2022-01-08 09:51:51,153 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2022-01-08 09:51:51,192 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2022-01-08 09:51:51,358 [restartedMain] INFO  c.s.SpringBootSecondMiniProjectApplication         - Started SpringBootSecondMiniProjectApplication in 25.768 seconds (JVM running for 31.762)
+2022-01-08 09:56:32,558 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-01-08 09:56:32,596 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-08 09:56:32,601 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-01-08 09:56:32,616 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2022-01-08 09:56:58,975 [restartedMain] WARN  o.springframework.boot.StartupInfoLogger           - InetAddress.getLocalHost().getHostName() took 5007 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2022-01-08 09:57:03,988 [restartedMain] INFO  c.s.SpringBootSecondMiniProjectApplication         - Starting SpringBootSecondMiniProjectApplication using Java 1.8.0_271 on Sreshs-MacBook-Air.local with PID 84531 (/Users/sresh/eclipse-workspace/SpringBoot-Second-MiniProject/target/classes started by sresh in /Users/sresh/eclipse-workspace/SpringBoot-Second-MiniProject)
+2022-01-08 09:57:03,990 [restartedMain] INFO  c.s.SpringBootSecondMiniProjectApplication         - No active profile set, falling back to default profiles: default
+2022-01-08 09:57:04,087 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-08 09:57:04,087 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-08 09:57:04,977 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-08 09:57:05,070 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 83 ms. Found 4 JPA repository interfaces.
+2022-01-08 09:57:05,920 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2022-01-08 09:57:05,939 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2022-01-08 09:57:05,940 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-01-08 09:57:05,941 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-01-08 09:57:06,087 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-01-08 09:57:06,088 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2000 ms
+2022-01-08 09:57:06,446 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-08 09:57:06,498 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-08 09:57:06,636 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-08 09:57:06,740 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-01-08 09:57:07,208 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-01-08 09:57:07,240 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-08 09:57:07,979 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-08 09:57:07,991 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-08 09:57:08,953 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-08 09:57:09,161 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-08 09:57:09,357 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-01-08 09:57:09,599 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2022-01-08 09:57:09,624 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2022-01-08 09:57:09,626 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2022-01-08 09:57:09,657 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2022-01-08 09:57:09,694 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2022-01-08 09:57:09,859 [restartedMain] INFO  c.s.SpringBootSecondMiniProjectApplication         - Started SpringBootSecondMiniProjectApplication in 26.305 seconds (JVM running for 32.148)
+2022-01-08 09:57:47,622 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-01-08 09:57:47,660 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-08 09:57:47,666 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-01-08 09:57:47,684 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
